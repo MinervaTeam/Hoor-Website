@@ -1,0 +1,62 @@
+.n-wrapper {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  top: 0;
+}
+
+.n-left {
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  gap: 2rem;
+}
+
+.n-name {
+  font-weight: bold;
+  font-family: 'Hoor';
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.n-right > * {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.n-list {
+  flex: 10;
+}
+
+.n-list > ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+
+}
+
+.n-list > ul :hover {
+  color: deeppink;
+  cursor: pointer;
+}
+
+.link {
+  font-family: 'Hoor';
+  font-weight: bold;
+  font-size: 5.5vh;
+}
+
+.n-button {
+  flex: 2;
+}
+
+@media screen and (max-width: 480px) {
+  .n-list {
+    display: none;
+  }
+}

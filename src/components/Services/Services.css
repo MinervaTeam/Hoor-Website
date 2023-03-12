@@ -1,0 +1,91 @@
+.services {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 35rem;
+  margin-top: 2rem;
+}
+
+/* right side */
+.awesome {
+  position: relative;
+  right: -33rem;
+  align-items: flex-start;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+}
+
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 4rem;
+  font-weight: bolder;
+  font-family: 'Hoor';
+  text-align: right;
+}
+.awesome > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Hoor';
+  text-align: right;
+}
+.awesome > :nth-child(3) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 1rem;
+  font-family: 'Hoor';
+  text-align: right;
+}
+
+.s-button {
+  width: 8rem;
+  height: 2rem;
+  font-family: 'Hoor';
+  font-size: xx-large;
+  text-align: center;
+  padding-bottom: 2.3rem;
+}
+
+/* left side */
+.cards {
+  position: relative;
+}
+
+.cards > :nth-child(1) {
+  position: absolute;
+  left: -10rem;
+}
+
+.cards > :nth-child(2) {
+  position: absolute;
+  top: 17rem;
+  left: -18rem;
+}
+
+.cards > :nth-child(3) {
+  position: absolute;
+  top: 17rem;
+  left: -2rem;
+}
+
+
+@media screen and (max-width: 550px) {
+
+  .cards > :nth-child(1) {
+    position: relative;
+    left: -7rem;
+  }
+
+  .cards > :nth-child(2) {
+    position: relative;
+    top: 1rem;
+    left: -12rem;
+  }
+
+  .cards > :nth-child(3) {
+    position: relative;
+    top: -16.7rem;
+    left: 0.1rem;
+  }
+
+}

@@ -1,0 +1,2 @@
+.n-wrapper{display:flex;height:10vh;justify-content:space-between;margin-bottom:2rem;top:0}.n-left{align-items:center;display:flex;flex:1 1;gap:2rem;justify-content:left}.n-name{font-size:1.3rem;font-weight:700}.n-right{align-items:center;display:flex;flex:1 1;font-weight:400;justify-content:flex-end}.n-list{flex:10 1}.n-list>ul{display:flex;gap:2rem;margin-right:4rem}.n-list>ul :hover{color:var(--orange);cursor:pointer}
+/*# sourceMappingURL=main.dc79e8c2.css.map*/

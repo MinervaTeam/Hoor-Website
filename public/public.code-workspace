@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "public",
+			"path": "."
+		},
+		{
+			"name": "fonts",
+			"path": "../../Downloads/Personal-Portfolio-React-master/src/fonts"
+		},
+		{
+			"name": "src",
+			"path": "../src"
+		},
+		{
+			"name": "img",
+			"path": "../../Downloads/Personal-Portfolio-React-master/src/img"
+		},
+		{
+			"name": "components",
+			"path": "../../Downloads/Personal-Portfolio-React-master/src/components"
+		}
+	]
+}
